@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="pages">
+    <div class="navigation">
+        <h1> Hanjian Listanto</h1>
+        <div class="navigationsMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>BMI Calculator</h1>
+        <input type="text" id="tinggi" placeholder="Masukan Tinggi Badan (M)" required>
+        <br>
+        <input type="text" id="berat" placeholder="Masukan Berat Badan (Kg)" required>
+        <br>
+
+        <button onclick="hitung()" id="hasil">Hitung </button>
+        <div id="tes"></div>
+
+    </div>
+    <script>
+        function hitung() {
+
+
+            var tinggi = document.getElementById("tinggi").value;
+            var berat = document.getElementById("berat").value;
+
+            var bmi = parseFloat(berat / (tinggi * tinggi));
+
+            var status;
+
+            if (bmi <= 18.5) {
+                status = "Anda Kurus";
+                document.getElementById("tes").innerHTML = "BMI Anda Adalah : " + bmi + " <br></br> Status Anda Adalah : " + status;
+            } else if (bmi >= 18.5 && bmi <= 22.9) {
+                status = "Anda Normal";
+                document.getElementById("tes").innerHTML = "BMI Anda Adalah : " + bmi + " <br></br> Status Anda Adalah : " + status;
+            } else if (bmi >= 23 && bmi <= 24.9) {
+                status = "Anda Normal";
+                document.getElementById("tes").innerHTML = "BMI Anda Adalah : " + bmi + " <br></br> Status Anda Adalah : " + status;
+            } else if (bmi >= 25) {
+                status = "Anda Obesitas";
+                document.getElementById("tes").innerHTML = "BMI Anda Adalah : " + bmi + " <br></br> Status Anda Adalah : " + status;
+            }
+        }
+    </script>
+
+    </body>
+
+</html>

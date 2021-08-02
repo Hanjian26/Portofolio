@@ -1,0 +1,169 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: white;
+    
+
+}
+
+header  {
+        font-family:bebas Neue;
+          width:100%;
+         height:10%;
+        background-color: #152850;
+    z-index: 999999;
+    position: fixed;
+    padding-top: 3px;
+}
+
+
+.fill-top  ul li a  {
+    
+    text-decoration: none;
+    color: #c2c9d3;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    padding:20px 50px;
+    padding-left: 30px;
+    font-size:20px;
+   
+    
+}
+
+.logo   {position: fixed;
+        left:15%;
+}
+
+.fill-top li{display: inline-block;
+    font-size:30px;
+    position: relative;
+    left: 10%;
+    
+}
+
+.fill-top a:hover  {
+            background-color: #112041;
+            border-radius: 10px;
+            cursor: pointer;
+           
+}
+
+.fill-top ul    {
+list-style-type: none;
+float: left;
+}
+
+
+.content    {background: #27496e;
+            width: 75%;
+            height: 150%;
+            position: relative;
+            top: 0%;
+            left:12%;
+            margin-top:-30px;
+}
+
+.content a {
+    color:#97a0af;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.content h1{
+    color:#97a0af;
+    font-family: sans-serif;
+    position: absolute;
+    backgroud-color:#2d547f;
+    margin-top: 23%;
+    margin-left: 20%;
+    text-align: center;
+    display: inline;
+}
+
+.form{
+    background-color: #2d547f;
+    width:75%;
+    height: 45%;
+    margin-top: 15%;
+    border-radius: 10px;
+    margin-left: 12%;
+    position: absolute;
+
+}
+
+.form h1{
+    margin-left: 5%;
+    margin-top:3%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type=text]
+{
+    color:#97a0af;
+    width: 27%;
+    height:9%;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color:#152850;
+    display: inline-block;
+
+
+}
+
+
+input[type=password], input[type=email]
+{   color:#97a0af;
+    padding-left: 10px;
+    margin-left: 20%;
+    width: 59.5%;
+    height:9%;
+    margin-top: 2%;
+    border-radius: 5px solid white;
+    margin-left: 5%;
+    background-color:#152850;
+}
+
+
+#sbutton {
+    color: #27496e;
+    background-color:#152850 ;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-top: 2% ;
+    width: 15%;
+    height:9%;
+}
+
+#sbutton:hover
+{
+    color:#97a0af;
+    cursor: pointer;
+    background-color:#2c5b8f;
+}
+
+.side-article {
+    color:#97a0af;
+    margin-top: 10%;
+    position: absolute;
+}
+
+
+footer{
+    margin-top: 18%;
+    margin-left: 55%;
+    font-size: 13px;
+ 
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer a{
+    padding-left: 45px;
+}
+
+
+
+
+
